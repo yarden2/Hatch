@@ -95,9 +95,9 @@ def brutes(username, username_selector ,password_selector,login_btn_selector,pas
                 Sel_user.send_keys(username)
                 Sel_pas.send_keys(line)
                 t.sleep(5)
-                print '------------------------'
-                print (color.GREEN + 'Tried password: '+color.RED + line + color.GREEN + 'for user: '+color.RED+ username)
-                print '------------------------'
+                //print '------------------------'
+                //print (color.GREEN + 'Tried password: '+color.RED + line + color.GREEN + 'for user: '+color.RED+ username)
+                //print '------------------------'
                 temp = line 
         except KeyboardInterrupt: #returns to main menu if ctrl C is used
             exit()
